@@ -4,5 +4,5 @@ class Story {
   String choice2;
 
   // Constructor
-  Story(this.storyTitle, this.choice1, this.choice2);
+  Story({this.storyTitle, this.choice1, this.choice2});
 }
